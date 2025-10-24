@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flash Sec - Entregas Rápidas em Canoas</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #1f8a36; /* verde */
+            padding: 12px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.18);
+        }
+
+        /* Ícone de moto no canto superior esquerdo */
+        header img {
+            position: absolute;
+            left: 18px;
+            top: 10px;
+            width: 56px;
+            height: 56px;
+            object-fit: contain;
+        }
+
+        header .brand {
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 1.6rem;
+            color: #fff;
+            line-height: 1;
+            margin-bottom: 6px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #eaffea;
+            font-weight: 700;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        nav a:hover { color: #d4ffd4; }
+
+        main {
+            padding: 56px 10%;
+        }
+
+        section {
+            margin-bottom: 70px;
+            padding-bottom: 40px;
+            border-bottom: 2px solid #dff3e6; /* linha verde clara */
+        }
+
+        h2 {
+            color: #1b5e20;
+            border-left: 6px solid #1f8a36;
+            padding-left: 12px;
+            margin-bottom: 18px;
+            font-size: 1.25rem;
+        }
+
+        p, li {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            margin-bottom: 14px;
+        }
+
+        ul { margin-left: 26px; margin-bottom: 12px; }
+
+        .info {
+            background-color: #eafaf1;
+            border-left: 5px solid #2ecc71;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 18px 0;
+            font-weight: 600;
+        }
+
+        footer {
+            background-color: #000;
+            color: #d4af37; /* dourado */
+            text-align: center;
+            padding: 25px 10px;
+            letter-spacing: 0.5px;
+        }
+
+        footer a {
+            color: #d4af37;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+            color: #f0c94d;
+        }
+
+        @media (max-width: 800px) {
+            main { padding: 40px 6%; }
+            section { padding: 28px 0; margin-bottom: 48px; }
+        }
+
+        @media (max-width: 480px) {
+            header img { left: 10px; top: 8px; width: 44px; height: 44px; }
+            header h1 { font-size: 1.25rem; }
+            nav ul { gap: 10px; flex-direction: column; align-items: center; margin-top: 6px; }
+            main { padding: 28px 5%; }
+            h2 { font-size: 1.05rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Ícone de moto -->
+        <img src="https://cdn-icons-png.flaticon.com/512/2972/2972185.png" alt="Ícone de moto">
+        <div class="brand">
+            <h1>Flash Sec</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Início</h2>
+            <p><strong>Bem-vindo à Flash Sec!</strong></p>
+            <p>Realizamos <strong>entregas rápidas, seguras e confiáveis de moto</strong> em Canoas e região.</p>
+            <p>Atendemos <strong>pequenas encomendas, documentos, compras online e pertences pessoais</strong> com agilidade e segurança.</p>
+
+            <div class="info">
+                🏍️ Serviço realizado com motocicleta — <strong>capacidade máxima: 45 L</strong> — <strong>peso máximo: 20 kg</strong>.
+            </div>
+
+            <p>💬 Solicite agora pelo WhatsApp: <a href="https://wa.me/5548999830912">(48) 99983-0912</a><br>
+               ✉️ Ou envie um e-mail: <a href="mailto:derivada42@gmail.com">derivada42@gmail.com</a></p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>A <strong>Flash Sec</strong> nasceu com o propósito de oferecer um <strong>serviço de entrega de moto ágil e seguro</strong> para os moradores e empresas de <strong>Canoas (RS)</strong>.</p>
+            <p>Com nossas motocicletas equipadas e condutores experientes, garantimos que sua entrega chegue <strong>intacta, no prazo e com todo o cuidado</strong>.</p>
+
+            <ul>
+                <li>📦 Entregas rápidas de pequenas encomendas (até 45 L / 20 kg)</li>
+                <li>🧾 Transporte de documentos e correspondências</li>
+                <li>🛍️ Retirada e entrega de compras online</li>
+                <li>🎒 Transporte de objetos pessoais com segurança</li>
+            </ul>
+
+            <p>Nosso compromisso é com a <strong>pontualidade, segurança e confiança</strong> em cada entrega.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>📍 <strong>Atendimento exclusivo em Canoas e região.</strong></p>
+            <p>📱 WhatsApp: <a href="https://wa.me/5548999830912">(48) 99983-0912</a><br>
+               📧 E-mail: <a href="mailto:derivada42@gmail.com">derivada42@gmail.com</a></p>
+            <p>Estamos prontos para levar <strong>o que você precisa, de moto e com segurança</strong>, para onde for necessário!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 <strong>Flash Sec</strong> - Entregas Rápidas em Canoas | 
+           <a href="mailto:derivada42@gmail.com">Contato</a> 🏍️
+        </p>
+    </footer>
+
+</body>
+</html>
